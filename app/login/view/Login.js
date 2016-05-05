@@ -98,24 +98,24 @@ Ext.define('onlineOperation.login.view.Login', {
                     text: '用户名或密码输入有误，请重新输入!',
                     hidden:true
                 },
-                {
-                    xtype: 'container',
-                    layout: 'hbox',
-                    items: [
-                        {
-                            xtype: 'checkboxfield',
-                            flex : 1,
-                            cls: 'form-panel-font-color rememberMeCheckbox',
-                            height: 30,
-                            bind: '{persist}',
-                            boxLabel: '记住我的账户'
-                        },
-                        {
-                            xtype: 'box',
-                            html: '<a href="#authentication.passwordreset" class="link-forgot-password"> 忘记密码 ?</a>'
-                        }
-                    ]
-                },
+                // {
+                //     xtype: 'container',
+                //     layout: 'hbox',
+                //     items: [
+                //         {
+                //             xtype: 'checkboxfield',
+                //             flex : 1,
+                //             cls: 'form-panel-font-color rememberMeCheckbox',
+                //             height: 30,
+                //             bind: '{persist}',
+                //             boxLabel: '记住我的账户'
+                //         },
+                //         {
+                //             xtype: 'box',
+                //             html: '<a href="#authentication.passwordreset" class="link-forgot-password"> 忘记密码 ?</a>'
+                //         }
+                //     ]
+                // },
                 {
                     xtype: 'button',
                     reference: 'loginButton',

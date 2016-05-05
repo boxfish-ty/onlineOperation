@@ -104,7 +104,7 @@ Ext.define('onlineOperation.boot.view.MainController', {
             navigationList = refs.navigationTreeList,
             wrapContainer = refs.mainContainerWrap,
             collapsing = !navigationList.getMicro(),
-            new_width = collapsing ? 64 : 200;
+            new_width = collapsing ? 64 : 240;
 
         if (Ext.isIE9m || !Ext.os.is.Desktop) {
             Ext.suspendLayouts();

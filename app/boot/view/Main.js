@@ -35,7 +35,7 @@ Ext.define('onlineOperation.boot.view.Main', {
                     xtype: 'component',
                     reference: 'applicationLogo',
                     cls: 'application-main-header-logo',
-                    html: '<div class="main-logo"><img src="resources/images/logo.png">中外教管理</div>',
+                    html: '<div class="main-logo"><img src="resources/images/logo.png">在线运营后台</div>',
                     width: 64
                 },
                 // 导航按钮
